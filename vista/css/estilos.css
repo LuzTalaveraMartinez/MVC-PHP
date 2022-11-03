@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-titulo-nuevo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-titulo-nuevo .formulario-nuevo {
+    background-color: rgb(243, 236, 32);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 9%;
+}
+
+.container-titulo-nuevo .formulario-nuevo .titulo-nuevo {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.container-titulo-nuevo .formulario-nuevo .label-nuevo {
+    margin: 8px 2%;
+    font-size: 20px;
+}
+
+.container-titulo-nuevo .formulario-nuevo .input-nuevo {
+    width: 25vw;
+    margin: 10px;
+    text-align: center;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 10px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+    margin-bottom: 25px;
+}
+
+.container-titulo-nuevo .formulario-nuevo .boton-nuevo {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: #28a745;
+    margin-top: 85px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 20px 2%;
+    margin-bottom: 30px;
+    margin: 0px 20px;
+    height: 37px;
+    padding: 6px 2%;
+}
+
+.container-titulo-nuevo .formulario-nuevo .boton-nuevo:hover {
+    background-color: #fff;
+    color: rgb(3, 5, 11);
+}
+
+.container-caja-index {
+    background: #fffffd;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.container-caja-index .boton-vista-nuevo {
+    width: 18vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 15px;
+    margin: 0px 42vw;
+    padding: 2px 2%;
+}
+
+.container-caja-index .mostrar-datos-index {
+    background-color: #fbfae5;
+    width: 100%;
+    height: 80vh;
+}
+
+.container-caja-index .mostrar-datos-index .thead-visto-nuevo {
+    background-color: rgb(17, 20, 43);
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    height: 20px;
+}
+
+.container-caja-index .mostrar-datos-index .thead-visto-nuevo .titulo-datos {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding: 2px 2%;
+}
+
+.container-caja-index .mostrar-datos-index .tbody-visto-nuevo {
+    text-align: center;
+    width: 15vw;
+}
+
+.container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .datos {
+    text-align: center;
+    width: 15vw;
+    padding: 2px 6%;
+}
+
+.container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo {
+    width: 15vw;
+    height: 90px;
+    margin: 5px 2%;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+    width: 10vw;
+}
+
+.container-titulo-editar {
+    width: 100vw;
+    height: 100vh;
+    padding-top: -20px;
+}
+
+.container-titulo-editar .formulario-editar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3ec20;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-titulo-editar .formulario-editar .titulo-editar {
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.container-titulo-editar .formulario-editar .label-editar {
+    margin: 8px 2%;
+    font-size: 20px;
+}
+
+.container-titulo-editar .formulario-editar .input-editar {
+    width: 20vw;
+    margin: 10px;
+    text-align: center;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 10px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+    margin-bottom: 25px;
+}
+
+.container-titulo-editar .formulario-editar .boton-editar {
+    width: 10%;
+    height: 6%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: #28a745;
+    margin-top: 85px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 2px 1%;
+    margin-bottom: 30px;
+    margin: 0px 20px;
+}
+
+.container-titulo-editar .formulario-editar .boton-editar:hover {
+    background-color: #fff;
+    color: rgb(3, 5, 11);
+}
+
+
+/* MEDIA QUERY  */
+
+@media (max-width: 1300px) {
+    .container-titulo-editar .formulario-editar .titulo-editar {
+        text-transform: uppercase;
+        font-size: 34px;
+        margin-bottom: 30px;
+        margin-top: -120px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .container-titulo-editar .formulario-editar .titulo-editar {
+        font-size: 30px;
+    }
+    .container-caja-index .mostrar-datos-index .thead-visto-nuevo .titulo-datos {
+        height: 40px;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .datos {
+        width: 43vw;
+        margin: 10px 50vw;
+        padding-top: 100px;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 1%;
+        height: 5vh;
+        width: 30vw;
+        margin-top: 100px;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        margin: 5px 2%;
+        width: 14vw;
+    }
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 34%;
+    }
+}
+
+@media (max-width: 920px) {
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        margin: 5px 2%;
+        width: 18vw;
+        padding: 1% 4%;
+    }
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 38%;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    .container-titulo-editar .formulario-editar .boton-editar {
+        width: 16vw;
+        padding: 2px 5px;
+    }
+}
+
+@media (max-width: 872px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 25vw;
+        margin: 2px 40%;
+    }
+}
+
+@media (max-width: 730px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 28vw;
+        padding: 5px 15px;
+        margin: 2px auto;
+        font-size: 14px;
+    }
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 38%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        margin: 5px 2%;
+        width: 22vw;
+        padding: 1%;
+    }
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 47vw;
+    }
+    .container-titulo-editar .formulario-editar .boton-editar {
+        width: 22vw;
+        padding: 2px 5px;
+    }
+}
+
+@media (max-width: 518px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 49%;
+        padding: 5px 15px;
+        margin: 2px auto;
+        font-size: 14px;
+    }
+    .container-titulo-nuevo .formulario-nuevo .input-nuevo {
+        width: 60vw;
+    }
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 58vw;
+    }
+    .container-titulo-editar .formulario-editar .boton-editar {
+        width: 25vw;
+        padding: 2px 5px;
+    }
+}
+
+@media (max-width: 440px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 49vw;
+        padding: 5px 15px;
+        margin: 2px auto;
+        font-size: 14px;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        padding: 10%;
+        font-size: 15px;
+        width: 25vw;
+        margin: 2px;
+    }
+    .container-titulo-editar .formulario-editar .titulo-editar {
+        text-transform: uppercase;
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .container-titulo-editar .formulario-editar .input-editar {
+        width: 64%;
+    }
+}
+
+@media (max-width: 380px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 50%;
+        padding: 5px 15px;
+        font-size: 14px;
+        margin: 2% 25%;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        padding: 5% 5% !important;
+        font-size: 14px;
+        width: 25vw;
+    }
+    .container-titulo-editar .formulario-editar .boton-editar {
+        width: 28vw;
+        padding: 2px 5px;
+    }
+}
+
+@media (max-width: 302px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 55%;
+        padding: 5px 15px;
+        font-size: 14px;
+        margin: 2% 23%;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo {
+        margin: 2% 3%;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        padding: 5% 3% !important;
+        font-size: 14px;
+        width: 28vw;
+    }
+    .container-titulo-editar .formulario-editar .boton-editar {
+        width: 32vw;
+        padding: 2px 5px;
+    }
+    .container-titulo-editar .formulario-editar .titulo-editar {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 264px) {
+    .container-caja-index .boton-vista-nuevo {
+        width: 64%;
+        padding: 5px 15px;
+        font-size: 14px;
+        margin: 2% 18%;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo {
+        margin: 2% 3%;
+    }
+    .container-caja-index .mostrar-datos-index .tbody-visto-nuevo tr .botones-nuevo .btn {
+        padding: 5% 3% !important;
+        font-size: 14px;
+        width: 28vw;
+    }
+}
